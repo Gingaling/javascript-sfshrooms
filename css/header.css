@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+header,
+footer {
+  position: sticky;
+  background-color: white;
+  color: navy;
+  text-align: center;
+  z-index: 1;
+}

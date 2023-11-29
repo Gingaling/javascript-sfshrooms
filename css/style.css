@@ -57,20 +57,34 @@ footer {
   z-index: 1;
 }
 
+.screentitle {
+  font-size: 3rem;
+  font-weight: bolder;
+  text-align: center;
+  margin: 1rem;
+}
+
 header {
   top: 0;
+}
+
+
+footer {
+  bottom: 0;
 }
 
 #block1 {
   display: inline;
 }
 
-nav {
+nav, #nav-placeholder {
   width: 100%;
   position: sticky;
   background-color: #fff;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   padding: 0.5rem;
-  border-bottom: 2px solid #000;
+  /* border-bottom: 2px solid #000; */
   font-weight: bolder;
   display: flex;
   flex-direction: row;

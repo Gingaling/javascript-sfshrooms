@@ -1,1 +1,52 @@
-<h1>About Us</h1>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>About SF SHrooms</title>
+		<meta
+			name="descriptiom"
+			content="" />
+		<link
+			rel="stylesheet"
+			href="../css/style.css" />
+            <link rel="stylesheet" href="css/header.css" />
+
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<div id="header-placeholder"></div>
+		</header>
+		<script>
+			$(function () {
+				$('#header-placeholder').load('header.html');
+			});
+		</script>
+
+		<div id="nav-placeholder"></div>
+		<script>
+			$(function () {
+				$('#nav-placeholder').load('nav.html');
+			});
+		</script>
+
+		<h1 class="screentitle">About Us</h1>
+
+        <script src="/js/url-router.js"></script>
+        <footer>
+            <div id="footer-placeholder"></div>
+            <script>
+                $(function () {
+                    $('#footer-placeholder').load('footer.html');
+                });
+            </script>
+      </footer>
+	</body>
+</html>

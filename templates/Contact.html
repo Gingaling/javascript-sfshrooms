@@ -1,45 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SF Shrooms - Contact Us</title>
-    <meta name="descriptiom" content="" />
-    <link rel="stylesheet" href="../css/contact.css" />
-  </head>
-<body>
-<h1>Contact Us</h1>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>SF Shrooms - Contact Us</title>
+		<meta
+			name="descriptiom"
+			content="" />
+		<link
+			rel="stylesheet"
+			href="../css/style.css" />
+		<link
+			rel="stylesheet"
+			href="../css/contact.css" />
+      <link rel="stylesheet" href="css/header.css" />
 
-<div class="container">
-    <form action="action_page.php">
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	</head>
+	<body>
+    <header>
+      <div id="header-placeholder"></div>
+          </header>
+      <script>
+        $(function () {
+          $('#header-placeholder').load('header.html');
+        });
+      </script>
   
-      <label for="fname">First Name</label>
-      <br/>
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-  <br/>
-      <label for="lname">Last Name</label>
-      <br/>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      <br/>
-      <label for="country">Country</label>
-      <br/>
-      <select id="country" name="country">
-        <option value="australia">Australia</option>
-        <option value="canada">Canada</option>
-        <option value="usa">USA</option>
-      </select>
-      <br/>
-      <label for="subject">Subject</label>
-      <br/>
-      <input type="text"  id="subject" name="subject" placeholder="My inquiry is related to...">
-    <br/>
-    <label for="question">Question/Comment</label>
-    <br/>
-      <textarea id="question" name="question" placeholder="Write your question or comment here." style="height:200px"></textarea>
-  <br/>
-      <input type="submit" value="Submit">
-  
-    </form>
-  </div>
-</body>
+      <div id="nav-placeholder"></div>
+      <script>
+        $(function () {
+          $('#nav-placeholder').load('nav.html');
+        });
+      </script>
+		<h1 class="screentitle">Contact SF Shrooms</h1>
+
+		<div class="container">
+			<form action="action_page.php">
+				<label for="fname">First Name</label>
+				<br />
+				<input
+					type="text"
+					id="fname"
+					name="firstname"
+					placeholder="Your name.." />
+				<br />
+				<label for="lname">Last Name</label>
+				<br />
+				<input
+					type="text"
+					id="lname"
+					name="lastname"
+					placeholder="Your last name.." />
+				<br />
+				<label for="country">Country</label>
+				<br />
+				<select
+					id="country"
+					name="country">
+					<option value="australia">Australia</option>
+					<option value="canada">Canada</option>
+					<option value="usa">USA</option>
+				</select>
+				<br />
+				<label for="subject">Subject</label>
+				<br />
+				<input
+					type="text"
+					id="subject"
+					name="subject"
+					placeholder="My inquiry is related to..." />
+				<br />
+				<label for="question">Question/Comment</label>
+				<br />
+				<textarea
+					id="question"
+					name="question"
+					placeholder="Write your question or comment here."
+					style="height: 200px"></textarea>
+				<br />
+				<input
+					type="submit"
+					value="Submit" />
+			</form>
+		</div>
+		<script src="/js/url-router.js"></script>
+
+    <footer>
+      <div id="footer-placeholder"></div>
+      <script>
+          $(function () {
+              $('#footer-placeholder').load('footer.html');
+          });
+      </script>
+</footer>
+	</body>
+</html>

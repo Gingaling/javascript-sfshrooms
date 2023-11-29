@@ -1,1 +1,119 @@
-<h1>Our Shrooms</h1>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Our Shrooms</title>
+		<meta
+			name="descriptiom"
+			content="" />
+		<link rel="stylesheet" href="css/header.css" />
+		<link
+			rel="stylesheet"
+			href="../css/style.css" />
+
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	</head>
+
+	<body>
+        <header>
+		<div id="header-placeholder"></div>
+        </header>
+		<script>
+			$(function () {
+				$('#header-placeholder').load('header.html');
+			});
+		</script>
+
+		<div id="nav-placeholder"></div>
+		<script>
+			$(function () {
+				$('#nav-placeholder').load('nav.html');
+			});
+		</script>
+
+		<h1 class="screentitle">Our Shrooms</h1>
+		<main>
+			<article
+				id="profile1"
+				class="card">
+				<figure>
+					<img
+						src="../img/golden-teachers.jpeg"
+						alt="Golden Teacher"
+						width="500"
+						height="500" />
+					<figcaption>Golden Teacher</figcaption>
+				</figure>
+				<br />
+				<h2>$35 / <sup>1</sup>/<sub>8</sub> oz</h2>
+				<br />
+				<p>I code stuff.</p>
+			</article>
+			<article
+				id="profile2"
+				class="card">
+				<figure>
+					<img
+						src="../img/profile2-500x500.jpeg"
+						alt="Blue Meany"
+						width="500"
+						height="500" />
+					<figcaption>Blue Meany</figcaption>
+				</figure>
+				<br />
+				<h2>$35 / <sup>oz</sup>/<sub>8</sub></h2>
+				<br />
+				<p>I design stuff.</p>
+			</article>
+			<article
+				id="profile3"
+				class="card">
+				<figure>
+					<img
+						src="../img/profile3-500x500.jpeg"
+						alt="Albino Penos Envy"
+						width="500"
+						height="500" />
+					<figcaption>Albino Penis Envy<span class="nowrap"></span></figcaption>
+				</figure>
+				<br />
+				<h2>$35 / <sup>oz</sup>/<sub>8</sub></h2>
+				<br />
+				<p>I teach stuff.</p>
+			</article>
+			<article
+				id="profile3"
+				class="card">
+				<figure>
+					<img
+						src="../img/profile3-500x500.jpeg"
+						alt="Albino Penos Envy"
+						width="500"
+						height="500" />
+					<figcaption>B<sup>+</sup><span class="nowrap"></span></figcaption>
+				</figure>
+				<br />
+				<h2>$35 / <sup>oz</sup>/<sub>8</sub></h2>
+				<br />
+				<p>I teach stuff.</p>
+			</article>
+		</main>
+
+		<script src="/js/url-router.js"></script>
+
+		<footer>
+            <div id="footer-placeholder"></div>
+            <script>
+                $(function () {
+                    $('#footer-placeholder').load('footer.html');
+                });
+            </script>
+		</footer>
+	</body>
+</html>
